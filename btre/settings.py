@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE' : 'django.db.backends.postgresql',
+        'ENGINE' : 'django.db.backends.postgresql_psycopg2',
         'NAME' : 'btredb',
         'USER' : 'postgres',
         'PASSWORD': 'udemy',
-        'HOST' : 'localhost',
+        'HOST' : '127.0.0.1',
         'PORT': '5432',
     }
 }
