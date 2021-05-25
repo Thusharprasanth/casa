@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'h64ikmb#=%%26l2sucuv0c1y^_a%ojn=*#ip13e5ua1_@g11mv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','thusharcasa.herokuapp.com']
 
